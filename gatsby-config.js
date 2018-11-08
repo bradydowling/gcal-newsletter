@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Weekly Young Men Email generator',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
