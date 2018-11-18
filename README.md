@@ -1,14 +1,16 @@
-This repository uses Gatsby.js to generate a weekly email for the young men, based on events on a Google Calendar of your choice.
+## Description
+This repository uses Gatsby.js to generate a weekly email newsletter, based on events from a Google Calendar of your choice.
 
 ## Todo
 - Take in a Google Calendar link from which events, lessons, and birthdays will be pulled
 
+## Getting started
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter/
+    cd gcal-newsletter/
     gatsby develop
     ```
 
@@ -17,7 +19,7 @@ This repository uses Gatsby.js to generate a weekly email for the young men, bas
     Your site is now running at `http://localhost:8000`!
     
     *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
-    
+
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
     
 ## 🧐 What's inside?
@@ -48,7 +50,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
   4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
   
   5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-  
+
   6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
   
   7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
